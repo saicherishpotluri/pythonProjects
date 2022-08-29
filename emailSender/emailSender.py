@@ -11,11 +11,7 @@ emailReceiver = 'receiver@email.com'
 
 subject = 'Hello, I hope you are doing good'
 body = """
-I am a graduate student pursuing my Masters in Computer Science, with a GPA of 3.67/4.0
-from Arizona State University, at Tempe. I have a bachelor's degree in Computer Science and
-I have experience with Python, Java, and SQL. I am very much interested in data analytics and
-I also like making applications. I am confident and self-driven and I have an insatiable desire
-to learn. I like solving problems and I am a team player.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 """
 
 em = EmailMessage()
