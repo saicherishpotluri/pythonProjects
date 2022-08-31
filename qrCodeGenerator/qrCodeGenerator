@@ -13,6 +13,7 @@ def generateQRCode(text):
     qr.make(fit=True)
     img = qr.make_image(fill_color="black",back_color="white")
     # save the qrcode as an image
-    img.save("git.png")
+    img.save("qrimg.png")
 # run the fuction
-generateQRCode("https://github.com/saicherishpotluri")
+url = input("Enter url: ")
+generateQRCode(url)
