@@ -1,0 +1,66 @@
+# a dict storing ques and ans
+quiz = {
+    "question1" : {
+        "question" : "What does BSNL stand for?",
+        "answer" : "Bharat Sanchar Nigam Limited"
+    },
+    "question2" : {
+        "question" : "What fruit is famous in India, during summer season?",
+        "answer" : "Mango"
+    },
+    "question3" : {
+        "question" : "What element does 'O' represent on the periodic table?",
+        "answer" : "Oxygen"
+    },
+    "question4" : {
+        "question" : "Who was Indian Prime Minister before Narendra Modi?",
+        "answer" : "Manmohan Singh"
+    },
+    "question5" : {
+        "question" : "What's the name of the river that runs through Egypt?",
+        "answer" : "River Nile"
+    },
+    "question6" : {
+        "question" : "For one point, can you name the actor who played Ram in RRR?",
+        "answer" : "Ram Charan"
+    },
+    "question7" : {
+        "question" : "What's the name of the building in Delhi where the PM resides?",
+        "answer" : "Rashtrapathi Bhavan"
+    },
+    "question8" : {
+        "question" : "For one point, what is the most common drink in the world?",
+        "answer" : "Water"
+    },
+    "question9" : {
+        "question" : "What's the highest mountain in the world?",
+        "answer" : "Mt. Everest"
+    },
+    "question10" : {
+        "question" : "Who is the author of Harry Potter books?",
+        "answer" : "J.K.Rowling"
+    },
+}
+# have a variable that tracks the score of the player
+score = 0
+# loop through the dictionary using key-value pairs
+for key,value in quiz.items():
+    # display each question to the user and allow them to answer
+    print(value['question'])
+    answer = input("Answer? ")
+    # tell them if they are right or wrong
+    if answer.lower() == value['answer'].lower():
+        print("Correct")
+        score += 1
+        # show final result when quiz is completed
+        print("Your score is: "+str(score))
+        print("")
+        print("")
+    else:
+        print("Wrong")
+        print("The answer is : "+value['answer'])
+        print("Your score is : "+str(score))
+        print("")
+        print("")
+print("You got "+str(score)+" out of 10 questions correctly")
+print("Your percentage is "+ str(int(score/7 * 100))+"%")
