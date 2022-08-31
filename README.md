@@ -4,3 +4,4 @@
 2. Replace word in a string
 3. Basic Calculator
 4. Email slicer
+5. Binary Search
