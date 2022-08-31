@@ -5,3 +5,5 @@
 3. Basic Calculator
 4. Email slicer
 5. Binary Search
+6. Quiz Program
+7. QR Code Generator
